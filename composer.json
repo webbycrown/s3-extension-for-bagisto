@@ -1,0 +1,35 @@
+{
+    "name": "webbycrown/s3-extension-for-bagisto",
+    "description": "S3 Extension for Bagisto",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebbyCrown Solutions",
+            "email": "info@webbycrown.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/webbycrown/s3-extension-for-bagisto"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webbycrown\\S3Extension\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webbycrown\\S3Extension\\Providers\\AwsS3ServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
