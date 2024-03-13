@@ -7,18 +7,17 @@ return [
     [
         'key'  => 'aws',
         'name' => 'Aws',
-        'info' => 'Aws',
+        'info' => 'Manage your aws setting',
         'sort' => 7,
     ], [
         'key'  => 'aws.s3_bucket',
         'name' => 'S3 Bucket',
-        'info' => 'S3 Bucket',
-        'icon' => 'settings/tax.svg',
+        'info' => 'S3 Bucket information',
         'sort' => 1,
     ], [
         'key'    => 'aws.s3_bucket.setting',
         'name'   => 'AWS S3 Bucket Setting',
-        'info'   => 'AWS S3 Bucket Setting',
+        'info'   => '',
         'sort'   => 1,
         'fields' => [
             [
