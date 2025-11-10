@@ -92,3 +92,9 @@ app('Webbycrown\S3Extension\S3Extension')->awsS3Operation($s3Data);
 ~~~php
 env( 'AWS_FILE_PATH' ) . '/' . $path;
 ~~~
+
+---
+
+<div align="center">
+  <strong>Made with ❤️ by <a href="https://webbycrown.com">WebbyCrown</a></strong>
+</div>
